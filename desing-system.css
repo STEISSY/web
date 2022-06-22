@@ -1,0 +1,82 @@
+/*Reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  html,body {
+    min-height: 100vh;
+  }
+  /* Helper classes */
+  
+  .full-screen {
+    min-width: 100vw;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+  
+  }
+  
+  
+  
+  div.Menu{
+    display:flex;
+    justify-content: space-between;
+    color: rgb(155, 6, 6);
+  
+   }
+  
+  p,h1{
+  
+  font-family: 'League Gothic',
+  sans-serif;
+  
+  
+  
+  }
+  
+  div.Menu a{
+  
+      text-decoration: none;
+      padding: 15px 10px;
+      border-bottom: solid 2px gray;
+  }
+  
+  div.Menu a:hover{
+  color: black;
+      background: hotpink;
+      transition: all ease .1s;
+  }
+  
+  
+  section{
+      display: flex;
+      
+  }
+  
+  /* color */
+  
+  #quien_soy {
+    background: rgb(63, 94, 251);
+  }
+  #cosas_feliz {
+    background: rgb(131, 58, 180);
+  }
+  
+  #cosas_enojado {
+    background: rgb(253, 29, 29, 1);
+  }
+  #unica {
+    background: rgb(148, 233, 1);
+  }
